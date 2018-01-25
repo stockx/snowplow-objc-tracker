@@ -6,6 +6,7 @@ env:
   matrix:
     - TEST_PLATFORM="platform=iOS Simulator,OS=8.1,name=iPhone 5s"
     - TEST_PLATFORM="platform=iOS Simulator,OS=9.0,name=iPhone 6"
+    - TEST_PLATFORM="platform=iOS Simulator,OS=11.1,name=iPhone 7"
 
 rvm:
     - 2.2.2
